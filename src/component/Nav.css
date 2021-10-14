@@ -1,0 +1,66 @@
+.navbar {
+height: 80px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+position: fixed;
+top: 0;
+z-index: 2;
+background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+
+}
+.logo{
+    height: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav_black{
+background-color: black;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-nav{
+    color: white;
+    margin-right: 50px;
+    align-items: center;
+}
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+ul  {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+li a{
+ text-decoration: none;
+ color: white;
+}
+
+.profil .options{
+    display: none;
+
+}
+.options span{
+    color: white;
+
+}
+.dropDownIcon :hover{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
