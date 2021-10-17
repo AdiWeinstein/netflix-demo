@@ -12,12 +12,18 @@ import Movies from '../component/Movies'
 import MyList from '../component/MyList'
 import NewPopular from '../component/NewPopular'
 import WhatchAgain from '../component/WhatchAgain'
+import List from "./List";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Nav />
+        <Home />
+        <List />
+        <List />
+        <List />
+
         <Switch>
           <Route path="/tv-shows">
             <TvShows />
@@ -34,9 +40,9 @@ function App() {
           <Route path="/whatch-again">
             <WhatchAgain />
           </Route>
-          <Route path="/">
+          {/* <Route path="/">
             <Home />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>
