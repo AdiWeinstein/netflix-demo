@@ -1,0 +1,25 @@
+.list-item{
+    max-width:90%;
+    height: 200px;
+    
+    margin: 5px;
+    display: flex;
+ 
+}
+.movieRow--item{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+ 
+
+}
+.movieRow--item img{
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+    
+}
+.movieRow--item img:hover{
+    transform: scale(1.1);
+}
