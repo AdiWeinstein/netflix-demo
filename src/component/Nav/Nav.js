@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { BiBell, BiCaretDown, BiSearch } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import "../component/Nav.css";
+import "../Nav/Nav.css";
 
-import logo from "../img/logo.png";
+import logo from "../../img/logo.png";
 function Nav() {
   const [showNav, setShowNav] = useState(false);
 

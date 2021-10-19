@@ -1,18 +1,19 @@
-import "./App.css";
+import "../App/App.css";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-import Nav from "./Nav.js";
-import TvShows from '../component/TvShows'
-import Home from '../component/Home'
-import Movies from '../component/Movies'
-import MyList from '../component/MyList'
-import NewPopular from '../component/NewPopular'
-import WhatchAgain from '../component/WhatchAgain'
-import List from "./List";
+import Nav from "../Nav/Nav.js";
+import TvShows from '../Router/TvShows'
+import Movies from '../Router/Movies'
+import NewPopular from '../Router/NewPopular'
+import MyList from '../Router/MyList'
+import WhatchAgain from '../Router/WhatchAgain'
+import Home from '../Home/Home'
+
+ 
+import List from '../List/List'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
 
         <Switch>
           <Route path="/tv-shows">
-            <TvShows />
+            <TvShows/>
           </Route>
           <Route path="/movies">
             <Movies />
